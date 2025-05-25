@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: flask-ip-logger
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    plan: free
